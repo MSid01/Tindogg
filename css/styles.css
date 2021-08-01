@@ -1,0 +1,131 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size:3rem;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.3rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7% 15%;
+}
+
+.navbar {
+  position: sticky;
+  padding: 0 0 4.5rem;
+}
+
+/* navbar brand */
+
+.navbar-brand {
+  color: teal;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* nav item */
+.nav-item {
+  padding: 0 8px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* download buttons */
+.download-button {
+  margin: 3% 2% 5% 3%;
+}
+
+/* title img */
+.title-img {
+  margin: -8% 0 2% 4%;
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right:24%;
+}
+
+#title {
+  background: #ef8172;
+  color: #fff;
+}
+
+#features {
+  padding: 7% 15%;
+  position:relative;
+  z-index: 1;
+  background:white
+}
+
+#testimonials {
+  background: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+
+#press{
+    background:#ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: tomato;
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 30px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.card-sect{
+  /* background:red; */
+  padding:20px;
+  text-align:center;
+}
+
+/* pricing section */
+
+#pricing{
+  padding:100px;
+}
+
