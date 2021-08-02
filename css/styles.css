@@ -7,9 +7,9 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
 }
-h2{
-    font-family: "Montserrat", sans-serif;
-    font-size:3rem;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
 }
 
 h3 {
@@ -61,7 +61,7 @@ p {
   transform: rotate(25deg);
   width: 60%;
   position: absolute;
-  right:24%;
+  right: 24%;
 }
 
 #title {
@@ -71,9 +71,9 @@ p {
 
 #features {
   padding: 7% 15%;
-  position:relative;
+  position: relative;
   z-index: 1;
-  background:white
+  background: white;
 }
 
 #testimonials {
@@ -82,11 +82,23 @@ p {
   color: #fff;
 }
 
+#press {
+  background: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
 
-#press{
-    background:#ef8172;
-    padding-bottom: 3%;
-    text-align: center;
+#cta {
+  background: #ef8172;
+  color: #fff;
+  text-align: center;
+  padding: 100px;
+  padding: 4% 20% 3% 20%;
+}
+
+#footer {
+  padding: 5%;
+  text-align: center;
 }
 
 .feature-box {
@@ -103,43 +115,51 @@ p {
   color: tomato;
 }
 
-.testimonial-image{
-    width:10%;
-    border-radius: 100%;
-    margin:20px;
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
-.press-logo{
-    width:15%;
-    margin:20px 30px 50px;
+.press-logo {
+  width: 15%;
+  margin: 20px 30px 50px;
 }
-.carousel-item{
-    padding: 7% 15%;
+.carousel-item {
+  padding: 7% 15%;
 }
 
-.card-sect{
-  /* background:red; */
-  padding:20px;
-  text-align:center;
+.btn {
+  margin-top: 5%;
+}
+
+.card-sect {
+  padding: 20px;
+  text-align: center;
+}
+
+.contacts> i{
+  padding:10px;
+}
+
+.nav-items{
+  text-align:left;
 }
 
 /* pricing section */
 
-#pricing{
-  padding:100px;
+#pricing {
+  padding: 100px;
+  text-align: center;
 }
 
-@media (max-width:1028px) {
-  .title-img{
-    position:static;
+@media (max-width: 1028px) {
+  .title-img {
+    position: static;
     margin: 3% 0 0% 4%;
-  transform: rotate(0deg);
+    transform: rotate(0deg);
   }
-  #title{
-    text-align:center;
+  #title {
+    text-align: center;
   }
-  /* .download-button {
-    margin: auto;
-    width: 50%;
-  } */
 }
