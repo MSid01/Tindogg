@@ -1,20 +1,10 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-h2{
-    font-family: "Montserrat", sans-serif;
-    font-size:3rem;
-}
-
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
 }
 
 p {
@@ -23,12 +13,19 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15% 7% 15%;
+  padding: 7% 15%;
 }
 
 .navbar {
   position: sticky;
-  padding: 0 0 4.5rem;
+  padding: 0 0 3.5rem;
+}
+
+/* heading */
+.big-heading{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* navbar brand */
@@ -57,40 +54,61 @@ p {
 
 /* title img */
 .title-img {
-  margin: -8% 0 2% 4%;
+  margin: 0% 0 2% 4%;
   transform: rotate(25deg);
-  width: 60%;
+  width: 50%;
   position: absolute;
-  right:24%;
+  right: 24%;
 }
 
 #title {
   background: #ef8172;
   color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding:3% 15% 7%;
 }
 
 #features {
-  padding: 7% 15%;
-  position:relative;
+  position: relative;
   z-index: 1;
-  background:white
+  background: white;
+}
+
+.feature-title{
+  font-size: 1.5rem;
 }
 
 #testimonials {
   background: #ef8172;
-  text-align: center;
   color: #fff;
 }
 
+.testimonial-text{
+  font-size:3rem;
+  line-height:1.5;
+}
 
-#press{
-    background:#ef8172;
-    padding-bottom: 3%;
-    text-align: center;
+
+#press {
+  background: #ef8172;
+  padding-bottom: 3%;
+}
+
+#cta {
+  background: #ef8172;
+  color: #fff;
+  padding: 100px;
+  padding: 4% 20% 3% 20%;
+}
+
+#footer {
+  padding: 5%;
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
@@ -103,29 +121,50 @@ p {
   color: tomato;
 }
 
-.testimonial-image{
-    width:10%;
-    border-radius: 100%;
-    margin:20px;
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
-.press-logo{
-    width:15%;
-    margin:20px 30px 50px;
-}
-.carousel-item{
-    padding: 7% 15%;
+.press-logo {
+  width: 15%;
+  margin: 20px 30px 50px;
 }
 
-.card-sect{
-  /* background:red; */
-  padding:20px;
-  text-align:center;
+.btn {
+  margin-top: 5%;
+}
+
+.card-sect {
+  padding: 20px;
+}
+
+.contacts> i{
+  padding:10px;
+}
+
+.nav-items{
+  text-align:left;
 }
 
 /* pricing section */
 
-#pricing{
-  padding:100px;
+#pricing {
+  padding: 100px;
 }
 
+
+
+.price-text{
+  font-size: 3rem;
+  line-height:1.5;
+}
+
+@media (max-width: 1028px) {
+  .title-img {
+    position: static;
+    margin: 3% 0 0% 4%;
+    transform: rotate(0deg);
+  }
+}
